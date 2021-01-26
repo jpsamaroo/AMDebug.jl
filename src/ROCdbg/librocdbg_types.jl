@@ -5,9 +5,8 @@ struct Callbacks
     enable_notify_shared_library::Ptr{Cvoid}
     disable_notify_shared_library::Ptr{Cvoid}
     get_symbol_address::Ptr{Cvoid}
-    add_breakpoint::Ptr{Cvoid}
+    insert_breakpoint::Ptr{Cvoid}
     remove_breakpoint::Ptr{Cvoid}
-    set_breakpoint_state::Ptr{Cvoid}
     log_message::Ptr{Cvoid}
 end
 
